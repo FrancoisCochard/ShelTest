@@ -1,0 +1,43 @@
+\documentclass[10pt,a4paper]{shelyak}
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\usepackage[output-decimal-marker={,}]{siunitx} % version française
+%\usepackage{siunitx} % version anglaise
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+\title{\textbf{Alpy 600 spectroscope}\\
+\textbf{Manuel Utilisateur }}
+
+
+\author{\textbf{Olivier Thizy}\\
+(olivier.thizy@shelyak.com)\\
+\\
+\textbf{François Cochard}\\
+(francois.cochard@shelyak.com)}
+
+
+\DocReference{DC0016}
+\DocRevision{Z}
+\maketitle
+
+
+
+\chapter{Introduction}
+\section{Pour voir}
+Je commence à écrire du texte pour vérifier que c'est sur deux colonnes -- et alors, quel résultat ?
+J'affiche un nombre: 3,6 km/s
+J'ai tout de même à vérifier que les langues sont respectées...
+\si{\nm} (nanometer : \SI{1}{\nm} =
+    \SI{e-9}{\metre}). However, in your practice of spectroscopy, you
+    will find both \si{\nm} and Angstr\"oms (\si{\angstrom}). One Angstr\"om
+    is equal to \SI{3,75 e-10}{\m}, therefore the relationship between the
+    two is easy:  \SI{1}{\nm} = \SI{10}{\angstrom}. Regularly, purist
+    fight over this, but actually this duality is not really a problem
+    -- you get used to it quickly. In this book, I chose to use
+    \si{\nm} -- but in some figures the wavelength is given in \si{\angstrom}.
+    
+    \footnote{toto}
+\end{document}
